@@ -12,7 +12,7 @@
 <?php
     include '.\includes\connect.php';
 
-    // test from local
+    // test from local version 2
 
     $sql = "SELECT * FROM products";
     $result = $con->query($sql);
