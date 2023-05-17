@@ -11,6 +11,8 @@
 <?php
     include '.\includes\connect.php';
 
+    
+
     $sql = "SELECT * FROM products";
     $result = $con->query($sql);
     ?>
