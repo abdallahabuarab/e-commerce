@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-// test from gitgub number 2
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +10,6 @@
 <body>
 <?php
     include '.\includes\connect.php';
-
-    // test from local version 2
 
     $sql = "SELECT * FROM products";
     $result = $con->query($sql);
