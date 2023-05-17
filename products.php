@@ -12,7 +12,6 @@
 <?php
     include '.\includes\connect.php';
 
-    // test comment
 
     $sql = "SELECT * FROM products";
     $result = $con->query($sql);
